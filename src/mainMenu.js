@@ -4,4 +4,5 @@ export default function mainMenu(){
     const mainTitle = document.createElement("h1");
     mainTitle.innerHTML = "JavaScript Legends";
     gameContent.appendChild(mainTitle);
+    mainTitle.classList.add("main-menu-title")
 }

@@ -1,1 +1,1 @@
-(()=>{"use strict";!function(){const e=document.querySelector("#gameContent");e.classList.add("main-menu");const n=document.createElement("h1");n.innerHTML="JavaScript Legends",e.appendChild(n)}()})();
+(()=>{"use strict";!function(){const e=document.querySelector("#gameContent");e.classList.add("main-menu");const n=document.createElement("h1");n.innerHTML="JavaScript Legends",e.appendChild(n),n.classList.add("main-menu-title")}()})();

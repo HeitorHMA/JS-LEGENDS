@@ -5,5 +5,14 @@ body{
 
 
 .main-menu{
-    
+    display:grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 2fr 1fr 1fr 1fr;
+}
+.main-menu-title{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    grid-row-start: 1;
+    grid-row-end: 2;
 }
