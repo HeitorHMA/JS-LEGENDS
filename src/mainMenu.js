@@ -13,9 +13,14 @@ export default function mainMenu(){
     gameContent.appendChild(newGameButton);
 
     const continueButton = document.createElement("div");
-    newGameButton.innerHTML = "CONTINIGGA";
-    newGameButton.classList.add("continue-button");
+    continueButton.innerHTML = "CONTINIGGA";
+    continueButton.classList.add("continue-button");
     gameContent.appendChild(continueButton);
+
+    const exitButton = document.createElement("div");
+    exitButton.innerHTML = "EXITIGGA";
+    exitButton.classList.add("exit-button");
+    gameContent.appendChild(exitButton);
     
 
 }
