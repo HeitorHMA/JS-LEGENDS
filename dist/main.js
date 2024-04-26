@@ -1,1 +1,1 @@
-(()=>{"use strict";!function(){const e=document.querySelector("#gameContent");e.classList.add("game-menu-title");const n=document.createElement("h1");n.innerHTML="Lendas de CU lândia!",e.appendChild(n)}()})();
+(()=>{"use strict";!function(){const e=document.querySelector("#gameContent");e.classList.add("main-menu");const n=document.createElement("h1");n.innerHTML="JavaScript Legends",e.appendChild(n)}()})();
