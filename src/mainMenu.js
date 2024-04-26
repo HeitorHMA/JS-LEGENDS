@@ -8,9 +8,14 @@ export default function mainMenu(){
     gameContent.appendChild(mainTitle);
 
     const newGameButton = document.createElement("div");
-    newGameButton.innerHTML = "NIGGA GAME";
+    newGameButton.innerHTML = "NEWGGA GAME";
     newGameButton.classList.add("new-game-button");
     gameContent.appendChild(newGameButton);
+
+    const continueButton = document.createElement("div");
+    newGameButton.innerHTML = "CONTINIGGA";
+    newGameButton.classList.add("continue-button");
+    gameContent.appendChild(continueButton);
     
 
 }
